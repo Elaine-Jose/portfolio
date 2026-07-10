@@ -1,0 +1,593 @@
+{
+  "personal": {
+    "name": "Elaine Jose",
+    "title": "AI & Software Engineering Student",
+    "subtitle": "Computer Science Undergraduate",
+    "tagline": "Building intelligent systems at the intersection of AI, software engineering, and research",
+    "location": {
+      "city": "Pathanamthitta",
+      "state": "Kerala",
+      "country": "India"
+    },
+    "email": "elainejose2246@gmail.com",
+    "github": {
+      "username": "Elaine-Jose",
+      "url": "https://github.com/Elaine-Jose"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/elainejose"
+    },
+    "resume": {
+      "url": "/resume/Elaine_Jose_Resume.pdf",
+      "filename": "Elaine_Jose_Resume.pdf"
+    }
+  },
+  "seo": {
+    "title": "Elaine Jose | AI & Software Engineering Portfolio",
+    "description": "Portfolio of Elaine Jose — AI & Software Engineering student specializing in Machine Learning, Computer Vision, Deep Learning, and Full Stack Development. B.Tech CSE at Karunya Institute.",
+    "keywords": [
+      "Elaine Jose",
+      "AI Engineer",
+      "Software Engineer",
+      "Machine Learning",
+      "Computer Vision",
+      "Deep Learning",
+      "Full Stack Developer",
+      "Python",
+      "PyTorch",
+      "React",
+      "Healthcare AI",
+      "Research"
+    ],
+    "author": "Elaine Jose",
+    "siteUrl": "https://elainejose.dev",
+    "ogImage": "/og-image.svg",
+    "twitterHandle": "@elainejose"
+  },
+  "hero": {
+    "typingWords": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Software Engineering",
+      "Computer Vision",
+      "Research"
+    ],
+    "cta": {
+      "primary": "Download Resume",
+      "secondary": "View Projects"
+    }
+  },
+  "about": {
+    "headline": "Engineering Intelligence, One System at a Time",
+    "bio": "I am a Computer Science undergraduate at Karunya Institute of Technology and Sciences with a deep passion for Artificial Intelligence, Machine Learning, and Software Engineering. My work spans from building AI-powered disaster response platforms using LiDAR and thermal imaging to developing healthcare AI dashboards and speech recognition systems.\n\nI specialize in Deep Learning, Computer Vision, and end-to-end ML pipelines — transforming complex research problems into production-ready software. My research interests include Healthcare AI, Disaster Management AI, and applied machine learning for real-world impact.\n\nDriven by curiosity and rigorous problem-solving, I approach every challenge with a blend of theoretical depth and practical engineering excellence.",
+    "highlights": [
+      {
+        "icon": "Brain",
+        "title": "Artificial Intelligence",
+        "description": "Deep learning, NLP, and transformer-based architectures"
+      },
+      {
+        "icon": "Eye",
+        "title": "Computer Vision",
+        "description": "SegFormer, OpenCV, sensor fusion, and 3D perception"
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Healthcare AI",
+        "description": "Clinical dashboards and medical data intelligence"
+      },
+      {
+        "icon": "Shield",
+        "title": "Disaster Management AI",
+        "description": "LiDAR-based hazard detection and path planning"
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Research",
+        "description": "Applied ML research with academic rigor"
+      },
+      {
+        "icon": "Code2",
+        "title": "Full Stack Development",
+        "description": "React, FastAPI, Flutter, and scalable APIs"
+      }
+    ],
+    "stats": [
+      { "label": "CGPA", "value": 9.22, "suffix": "" },
+      { "label": "Projects", "value": 5, "suffix": "+" },
+      { "label": "Internships", "value": 2, "suffix": "" },
+      { "label": "Hackathons", "value": 2, "suffix": "+" }
+    ]
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Programming",
+        "icon": "Code",
+        "skills": [
+          { "name": "Python", "level": 95 },
+          { "name": "Java", "level": 85 },
+          { "name": "C", "level": 80 },
+          { "name": "SQL", "level": 88 }
+        ]
+      },
+      {
+        "name": "Web",
+        "icon": "Globe",
+        "skills": [
+          { "name": "React", "level": 90 },
+          { "name": "Node.js", "level": 85 },
+          { "name": "Express", "level": 82 },
+          { "name": "Flutter", "level": 78 }
+        ]
+      },
+      {
+        "name": "AI & ML",
+        "icon": "Brain",
+        "skills": [
+          { "name": "PyTorch", "level": 92 },
+          { "name": "TensorFlow", "level": 85 },
+          { "name": "OpenCV", "level": 88 },
+          { "name": "Scikit-learn", "level": 90 },
+          { "name": "NumPy", "level": 92 },
+          { "name": "Pandas", "level": 90 }
+        ]
+      },
+      {
+        "name": "Computer Vision",
+        "icon": "Eye",
+        "skills": [
+          { "name": "SegFormer", "level": 85 },
+          { "name": "SLAM", "level": 80 },
+          { "name": "Open3D", "level": 82 },
+          { "name": "Sensor Fusion", "level": 85 }
+        ]
+      },
+      {
+        "name": "Tools",
+        "icon": "Wrench",
+        "skills": [
+          { "name": "Git", "level": 92 },
+          { "name": "GitHub", "level": 95 },
+          { "name": "Linux", "level": 85 },
+          { "name": "VS Code", "level": 95 },
+          { "name": "Android Studio", "level": 75 },
+          { "name": "Postman", "level": 88 },
+          { "name": "Figma", "level": 80 },
+          { "name": "Jupyter Notebook", "level": 92 }
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "safepath-scanner",
+      "title": "SafePath Scanner",
+      "subtitle": "AI-Powered Disaster Response Platform",
+      "featured": true,
+      "description": "An AI-powered disaster response platform leveraging multi-sensor fusion with LiDAR, thermal imaging, and RGB cameras for real-time hazard detection, digital twin visualization, and autonomous path planning in disaster zones.",
+      "longDescription": "SafePath Scanner is a comprehensive disaster response system that combines cutting-edge computer vision with robotics. Using SegFormer for semantic segmentation, SLAM for localization, and Open3D for 3D reconstruction, the platform creates a real-time digital twin of disaster environments. The system fuses LiDAR point clouds, thermal signatures, and RGB imagery to detect hazards, then employs A* path planning on occupancy grids to navigate safe routes. Deployed on NVIDIA Jetson edge devices with a Flutter mobile app and FastAPI backend.",
+      "technologies": [
+        "LiDAR",
+        "Thermal Imaging",
+        "RGB",
+        "SegFormer",
+        "SLAM",
+        "Open3D",
+        "PyTorch",
+        "Jetson",
+        "Occupancy Grid",
+        "A*",
+        "Flutter",
+        "FastAPI"
+      ],
+      "features": [
+        "Digital Twin Visualization",
+        "Multi-Sensor Fusion",
+        "Real-time Hazard Detection",
+        "A* Path Planning",
+        "RESTful Backend API",
+        "Cross-platform Flutter App"
+      ],
+      "statistics": [
+        { "label": "Sensors", "value": "3", "suffix": "" },
+        { "label": "ML Models", "value": "4", "suffix": "+" },
+        { "label": "Accuracy", "value": 94, "suffix": "%" },
+        { "label": "Response Time", "value": 2, "suffix": "s" }
+      ],
+      "architecture": {
+        "layers": [
+          { "name": "Edge Layer", "components": ["NVIDIA Jetson", "LiDAR Sensor", "Thermal Camera", "RGB Camera"] },
+          { "name": "Perception Layer", "components": ["SegFormer", "SLAM", "Open3D", "Sensor Fusion"] },
+          { "name": "Planning Layer", "components": ["Occupancy Grid", "A* Algorithm", "Hazard Mapping"] },
+          { "name": "Application Layer", "components": ["Flutter App", "FastAPI Backend", "Digital Twin UI"] }
+        ]
+      },
+      "timeline": [
+        { "phase": "Research & Design", "duration": "2 weeks", "status": "completed" },
+        { "phase": "Sensor Integration", "duration": "3 weeks", "status": "completed" },
+        { "phase": "ML Pipeline", "duration": "4 weeks", "status": "completed" },
+        { "phase": "Path Planning", "duration": "2 weeks", "status": "completed" },
+        { "phase": "App Development", "duration": "3 weeks", "status": "completed" }
+      ],
+      "links": {
+        "github": "https://github.com/Elaine-Jose",
+        "demo": null,
+        "documentation": null
+      },
+      "gradient": "from-blue-600 via-cyan-500 to-purple-600",
+      "icon": "Shield"
+    },
+    {
+      "id": "atriva",
+      "title": "ATRIVA",
+      "subtitle": "Healthcare AI Dashboard",
+      "featured": true,
+      "description": "An intelligent healthcare dashboard leveraging AI for clinical data analysis, patient monitoring, and medical insights visualization with real-time analytics.",
+      "longDescription": "ATRIVA is a comprehensive healthcare AI platform designed to assist medical professionals with data-driven insights. The dashboard integrates machine learning models for patient risk assessment, trend analysis, and clinical decision support. Built with modern web technologies and robust data pipelines.",
+      "technologies": [
+        "Python",
+        "React",
+        "TensorFlow",
+        "FastAPI",
+        "PostgreSQL",
+        "Scikit-learn",
+        "Pandas"
+      ],
+      "features": [
+        "Patient Risk Assessment",
+        "Clinical Data Visualization",
+        "Real-time Analytics",
+        "ML-Powered Insights",
+        "Secure Data Pipeline"
+      ],
+      "statistics": [
+        { "label": "Metrics", "value": 12, "suffix": "+" },
+        { "label": "ML Models", "value": 3, "suffix": "" },
+        { "label": "Data Points", "value": 10, "suffix": "K+" },
+        { "label": "Uptime", "value": 99, "suffix": "%" }
+      ],
+      "architecture": {
+        "layers": [
+          { "name": "Frontend", "components": ["React Dashboard", "D3.js Charts", "Real-time Updates"] },
+          { "name": "Backend", "components": ["FastAPI", "PostgreSQL", "Redis Cache"] },
+          { "name": "ML Layer", "components": ["Risk Models", "Trend Analysis", "Anomaly Detection"] }
+        ]
+      },
+      "timeline": [
+        { "phase": "Requirements", "duration": "1 week", "status": "completed" },
+        { "phase": "UI/UX Design", "duration": "2 weeks", "status": "completed" },
+        { "phase": "Backend & ML", "duration": "4 weeks", "status": "completed" },
+        { "phase": "Integration", "duration": "2 weeks", "status": "completed" }
+      ],
+      "links": {
+        "github": "https://github.com/Elaine-Jose",
+        "demo": null,
+        "documentation": null
+      },
+      "gradient": "from-emerald-600 via-teal-500 to-cyan-600",
+      "icon": "HeartPulse"
+    },
+    {
+      "id": "speech-recognition",
+      "title": "Speech Recognition System",
+      "subtitle": "Deep Learning Audio Processing",
+      "featured": false,
+      "description": "A deep learning-based speech recognition system using transformer architectures for accurate real-time audio-to-text conversion with noise robustness.",
+      "longDescription": "Built during my AI internship at CodTech IT Solutions, this speech recognition system leverages transformer-based models for high-accuracy audio transcription. The system handles multiple accents, background noise, and varying audio qualities with preprocessing pipelines and custom training datasets.",
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "Transformers",
+        "Librosa",
+        "NumPy",
+        "FastAPI"
+      ],
+      "features": [
+        "Real-time Transcription",
+        "Noise Robustness",
+        "Multi-accent Support",
+        "Custom Training Pipeline",
+        "REST API Endpoint"
+      ],
+      "statistics": [
+        { "label": "Accuracy", "value": 92, "suffix": "%" },
+        { "label": "Latency", "value": 150, "suffix": "ms" },
+        { "label": "Languages", "value": 2, "suffix": "" },
+        { "label": "Model Size", "value": 45, "suffix": "MB" }
+      ],
+      "architecture": {
+        "layers": [
+          { "name": "Audio Processing", "components": ["Librosa", "MFCC Extraction", "Noise Reduction"] },
+          { "name": "Model", "components": ["Transformer Encoder", "CTC Decoder", "Beam Search"] },
+          { "name": "API", "components": ["FastAPI", "WebSocket Streaming", "Batch Processing"] }
+        ]
+      },
+      "timeline": [
+        { "phase": "Data Collection", "duration": "1 week", "status": "completed" },
+        { "phase": "Model Training", "duration": "2 weeks", "status": "completed" },
+        { "phase": "API Development", "duration": "1 week", "status": "completed" }
+      ],
+      "links": {
+        "github": "https://github.com/Elaine-Jose",
+        "demo": null,
+        "documentation": null
+      },
+      "gradient": "from-violet-600 via-purple-500 to-fuchsia-600",
+      "icon": "Mic"
+    },
+    {
+      "id": "voice-to-text",
+      "title": "Voice to Text Converter",
+      "subtitle": "Real-time Audio Transcription",
+      "featured": false,
+      "description": "A real-time voice-to-text conversion application with automatic text summarization using NLP transformers for concise output generation.",
+      "longDescription": "This application combines speech recognition with automatic text summarization to provide concise transcriptions of audio content. Using transformer-based NLP models, it extracts key information and generates summaries, making it ideal for meeting notes, lectures, and interviews.",
+      "technologies": [
+        "Python",
+        "NLP",
+        "Transformers",
+        "SpeechRecognition",
+        "Flask"
+      ],
+      "features": [
+        "Live Transcription",
+        "Auto Summarization",
+        "Export to Text/PDF",
+        "Batch Processing",
+        "Web Interface"
+      ],
+      "statistics": [
+        { "label": "Summary Ratio", "value": 30, "suffix": "%" },
+        { "label": "Processing", "value": 2, "suffix": "x RT" },
+        { "label": "Formats", "value": 3, "suffix": "" },
+        { "label": "Users", "value": 50, "suffix": "+" }
+      ],
+      "architecture": {
+        "layers": [
+          { "name": "Input", "components": ["Microphone Capture", "File Upload", "Stream Processing"] },
+          { "name": "Processing", "components": ["ASR Engine", "NLP Summarizer", "Text Formatter"] },
+          { "name": "Output", "components": ["Web UI", "PDF Export", "API Response"] }
+        ]
+      },
+      "timeline": [
+        { "phase": "ASR Integration", "duration": "1 week", "status": "completed" },
+        { "phase": "Summarization", "duration": "2 weeks", "status": "completed" },
+        { "phase": "UI Development", "duration": "1 week", "status": "completed" }
+      ],
+      "links": {
+        "github": "https://github.com/Elaine-Jose",
+        "demo": null,
+        "documentation": null
+      },
+      "gradient": "from-amber-600 via-orange-500 to-red-600",
+      "icon": "AudioLines"
+    },
+    {
+      "id": "neural-style-transfer",
+      "title": "Neural Style Transfer",
+      "subtitle": "Deep Learning Art Generation",
+      "featured": false,
+      "description": "A neural style transfer application using convolutional neural networks to blend artistic styles with photographic content, creating stunning visual compositions.",
+      "longDescription": "Implementing the seminal Gatys et al. approach with modern optimizations, this project applies the artistic styles of famous paintings to user-uploaded photographs. Using VGG-19 feature extraction and iterative optimization, it produces high-quality stylized images with customizable style intensity.",
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "NumPy",
+        "Flask"
+      ],
+      "features": [
+        "Custom Style Upload",
+        "Adjustable Style Weight",
+        "Batch Processing",
+        "GPU Acceleration",
+        "Gallery View"
+      ],
+      "statistics": [
+        { "label": "Styles", "value": 15, "suffix": "+" },
+        { "label": "Resolution", "value": 1024, "suffix": "px" },
+        { "label": "Iterations", "value": 300, "suffix": "" },
+        { "label": "GPU Speed", "value": 5, "suffix": "x" }
+      ],
+      "architecture": {
+        "layers": [
+          { "name": "Feature Extraction", "components": ["VGG-19", "Gram Matrices", "Style Loss"] },
+          { "name": "Optimization", "components": ["LBFGS Optimizer", "Content Loss", "Style Loss"] },
+          { "name": "Serving", "components": ["Flask API", "Image Upload", "Result Gallery"] }
+        ]
+      },
+      "timeline": [
+        { "phase": "Model Implementation", "duration": "1 week", "status": "completed" },
+        { "phase": "Optimization", "duration": "1 week", "status": "completed" },
+        { "phase": "Web Interface", "duration": "1 week", "status": "completed" }
+      ],
+      "links": {
+        "github": "https://github.com/Elaine-Jose",
+        "demo": null,
+        "documentation": null
+      },
+      "gradient": "from-rose-600 via-pink-500 to-purple-600",
+      "icon": "Palette"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "sih",
+      "title": "Smart India Hackathon Participant",
+      "category": "Hackathon",
+      "date": "2025",
+      "description": "Participated in India's largest hackathon, developing innovative AI solutions for national problem statements.",
+      "icon": "Trophy"
+    },
+    {
+      "id": "codecrux",
+      "title": "CodeCrux National Hackathon — 5th Place",
+      "category": "Hackathon",
+      "date": "2025",
+      "description": "Secured 5th place nationally at CodeCrux Hackathon, competing against teams from top engineering institutions.",
+      "icon": "Medal"
+    },
+    {
+      "id": "research",
+      "title": "Research Activities",
+      "category": "Research",
+      "date": "2024-2026",
+      "description": "Active participation in applied ML research focusing on computer vision, healthcare AI, and disaster management systems.",
+      "icon": "FlaskConical"
+    },
+    {
+      "id": "workshops",
+      "title": "Technical Workshops",
+      "category": "Events",
+      "date": "2024-2026",
+      "description": "Attended and conducted technical workshops on machine learning, deep learning frameworks, and software engineering best practices.",
+      "icon": "Presentation"
+    },
+    {
+      "id": "events",
+      "title": "Technical Events",
+      "category": "Events",
+      "date": "2024-2026",
+      "description": "Regular participation in technical symposiums, coding competitions, and AI/ML conferences at institutional and national levels.",
+      "icon": "Calendar"
+    },
+    {
+      "id": "academic",
+      "title": "Academic Achievements",
+      "category": "Academic",
+      "date": "2024-2028",
+      "description": "Maintaining a CGPA of 9.22 in B.Tech Computer Science and Engineering with consistent academic excellence.",
+      "icon": "GraduationCap"
+    }
+  ],
+  "education": [
+    {
+      "id": "btech",
+      "institution": "Karunya Institute of Technology and Sciences",
+      "degree": "B.Tech Computer Science and Engineering",
+      "period": "2024 - 2028",
+      "location": "Coimbatore, Tamil Nadu",
+      "cgpa": "9.22",
+      "description": "Pursuing undergraduate studies with focus on Artificial Intelligence, Machine Learning, Data Structures, Algorithms, and Software Engineering.",
+      "highlights": [
+        "CGPA: 9.22",
+        "AI & ML Specialization",
+        "Active Research Participation",
+        "Technical Club Member"
+      ]
+    },
+    {
+      "id": "higher-secondary",
+      "institution": "St. Antony's Public School (CBSE)",
+      "degree": "Higher Secondary Education",
+      "period": "2022 - 2024",
+      "location": "Kanjirapally, Kottayam, Kerala",
+      "percentage": "94%",
+      "description": "Completed higher secondary education with distinction in Science stream.",
+      "highlights": [
+        "94% Aggregate",
+        "Science Stream",
+        "CBSE Board"
+      ]
+    },
+    {
+      "id": "secondary",
+      "institution": "Mount Bethany Public School (CBSE)",
+      "degree": "Secondary School Education",
+      "period": "2020 - 2022",
+      "location": "Kumbazha, Pathanamthitta, Kerala",
+      "percentage": "93.4%",
+      "description": "Completed secondary education with excellent academic performance.",
+      "highlights": [
+        "93.4% Aggregate",
+        "CBSE Board",
+        "Science Excellence"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "nest-tech",
+      "company": "Nest Technologies",
+      "role": "Software Engineering Intern",
+      "type": "On-site",
+      "period": "May 2026 - June 2026",
+      "location": "India",
+      "description": "Engineered end-to-end ML pipeline for student placement prediction with production-grade REST APIs.",
+      "responsibilities": [
+        "Engineered an ML pipeline for student placement prediction",
+        "Built comprehensive EDA workflows for data exploration and feature analysis",
+        "Trained and evaluated Logistic Regression, Decision Tree, Random Forest, and XGBoost models",
+        "Achieved 79.45% prediction accuracy on validation set",
+        "Built FastAPI REST APIs for model serving and inference",
+        "Deployed models using Joblib for production readiness",
+        "Performed feature engineering and hyperparameter tuning",
+        "Conducted thorough model evaluation with cross-validation"
+      ],
+      "technologies": [
+        "Python",
+        "Scikit-learn",
+        "XGBoost",
+        "FastAPI",
+        "Pandas",
+        "Joblib",
+        "Matplotlib"
+      ],
+      "icon": "Building2"
+    },
+    {
+      "id": "codtech",
+      "company": "CodTech IT Solutions",
+      "role": "Artificial Intelligence Intern",
+      "type": "Remote",
+      "period": "June 2025",
+      "location": "Remote",
+      "description": "Developed speech recognition and text summarization systems using transformer-based NLP models.",
+      "responsibilities": [
+        "Built speech recognition system with transformer architectures",
+        "Implemented automatic text summarization pipeline",
+        "Developed reusable software architecture for ML modules",
+        "Applied NLP techniques for text processing and analysis",
+        "Used Git for version control and collaborative development"
+      ],
+      "technologies": [
+        "Python",
+        "NLP",
+        "Transformers",
+        "PyTorch",
+        "Git",
+        "FastAPI"
+      ],
+      "icon": "Cpu"
+    }
+  ],
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/#about" },
+    { "label": "Skills", "href": "/#skills" },
+    { "label": "Projects", "href": "/#projects" },
+    { "label": "Experience", "href": "/#experience" },
+    { "label": "GitHub", "href": "/#github" },
+    { "label": "Contact", "href": "/#contact" }
+  ],
+  "contact": {
+    "headline": "Let's Build Something Intelligent",
+    "subheadline": "Whether it's an AI research collaboration, software engineering opportunity, or an innovative project — I'd love to connect.",
+    "emailjs": {
+      "serviceId": "service_94sj24g",
+      "templateId": "template_contact",
+      "publicKey": "Xt7rBTvZdBgRGY-5I"
+    },
+    "fields": [
+      { "name": "name", "label": "Name", "type": "text", "required": true, "placeholder": "Your name" },
+      { "name": "email", "label": "Email", "type": "email", "required": true, "placeholder": "your@email.com" },
+      { "name": "subject", "label": "Subject", "type": "text", "required": true, "placeholder": "Project inquiry" },
+      { "name": "message", "label": "Message", "type": "textarea", "required": true, "placeholder": "Tell me about your project..." }
+    ]
+  },
+  "footer": {
+    "tagline": "Engineering intelligence through code, research, and innovation.",
+    "copyright": "Elaine Jose. All rights reserved."
+  }
+}
