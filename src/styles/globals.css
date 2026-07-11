@@ -86,6 +86,36 @@
     mask-composite: exclude;
     pointer-events: none;
   }
+
+  /* Custom cursor */
+  html {
+    cursor: none;
+  }
+
+  @keyframes cursor-glow {
+    0% {
+      box-shadow: 0 0 4px rgba(255, 255, 255, 0.6), 0 0 8px rgba(37, 99, 235, 0.4);
+    }
+    50% {
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 16px rgba(37, 99, 235, 0.6);
+    }
+    100% {
+      box-shadow: 0 0 4px rgba(255, 255, 255, 0.6), 0 0 8px rgba(37, 99, 235, 0.4);
+    }
+  }
+
+  .custom-cursor {
+    position: fixed;
+    width: 12px;
+    height: 12px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8), rgba(37, 99, 235, 0.4));
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    animation: cursor-glow 2s ease-in-out infinite;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 16px rgba(37, 99, 235, 0.6);
+  }
 }
 
 /* GitHub Calendar dark theme overrides */

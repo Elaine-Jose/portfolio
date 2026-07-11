@@ -5,6 +5,7 @@ import { PortfolioProvider } from '@/contexts/PortfolioContext'
 import { MainLayout } from '@/layout/MainLayout'
 import { HomePage } from '@/pages/Home'
 import { ErrorBoundary } from '@/components/ErrorBoundary'
+import { CustomCursor } from '@/components/CustomCursor'
 
 function PageLoader() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <PortfolioProvider>
         <ErrorBoundary>
           <BrowserRouter>
+            <CustomCursor />
             <Suspense fallback={<PageLoader />}>
               <Routes>
                 <Route element={<MainLayout />}>

@@ -414,18 +414,18 @@
   "achievements": [
     {
       "id": "sih",
-      "title": "Smart India Hackathon Participant",
+      "title": "Smart India Hackathon Finalist",
       "category": "Hackathon",
       "date": "2025",
-      "description": "Participated in India's largest hackathon, developing innovative AI solutions for national problem statements.",
+      "description": "Advanced to finalist stage at India's largest hackathon, developing innovative AI solutions for national problem statements.",
       "icon": "Trophy"
     },
     {
       "id": "codecrux",
-      "title": "CodeCrux National Hackathon — 5th Place",
+      "title": "National Hackathon CodeCrux — Top 5 Team Selected",
       "category": "Hackathon",
       "date": "2025",
-      "description": "Secured 5th place nationally at CodeCrux Hackathon, competing against teams from top engineering institutions.",
+      "description": "Selected as a top 5 team nationally at CodeCrux Hackathon, competing against teams from top engineering institutions across India.",
       "icon": "Medal"
     },
     {
