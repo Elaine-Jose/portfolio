@@ -39,6 +39,12 @@ export async function sendContactEmail(
     // Initialize EmailJS
     initializeEmailJS(config.publicKey)
 
+    console.log('Sending email with config:', {
+      serviceId: config.serviceId,
+      templateId: config.templateId,
+      publicKey: config.publicKey.substring(0, 5) + '...',
+    })
+
     const result = await emailjs.send(
       config.serviceId,
       config.templateId,
@@ -51,6 +57,8 @@ export async function sendContactEmail(
       }
     )
 
+    console.log('EmailJS response:', result)
+
     if (result.status === 200) {
       return { success: true, message: 'Message sent successfully!' }
     }
@@ -60,10 +68,12 @@ export async function sendContactEmail(
       message: 'Failed to send message. Please try again or email directly.',
     }
   } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error)
     console.error('EmailJS error:', error)
+    console.error('Error details:', errorMessage)
     return {
       success: false,
-      message: 'Failed to send message. Please try again or email directly.',
+      message: `Failed to send message: ${errorMessage}. Please email directly at elainejose2246@gmail.com`,
     }
   }
 }

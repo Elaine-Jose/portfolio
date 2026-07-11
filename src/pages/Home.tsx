@@ -6,7 +6,6 @@ import { Projects } from '@/sections/Projects'
 import { Achievements } from '@/sections/Achievements'
 import { Education } from '@/sections/Education'
 import { Experience } from '@/sections/Experience'
-import { Contact } from '@/sections/Contact'
 import { Resume } from '@/sections/Resume'
 import { SEO } from '@/components/SEO'
 import { ErrorBoundary } from '@/components/ErrorBoundary'
@@ -40,7 +39,6 @@ export function HomePage() {
         </Suspense>
       </ErrorBoundary>
       <Resume />
-      <Contact />
     </>
   )
 }
