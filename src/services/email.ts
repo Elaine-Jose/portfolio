@@ -11,11 +11,15 @@ export interface ContactFormData {
 let isInitialized = false
 
 function initializeEmailJS(publicKey: string) {
-  if (!isInitialized && publicKey && publicKey !== 'YOUR_EMAILJS_PUBLIC_KEY') {
-    emailjs.init({
-      publicKey: publicKey,
-    })
-    isInitialized = true
+  try {
+    if (!isInitialized && publicKey && publicKey !== 'YOUR_EMAILJS_PUBLIC_KEY') {
+      emailjs.init({
+        publicKey: publicKey,
+      })
+      isInitialized = true
+    }
+  } catch (error) {
+    console.error('EmailJS init error:', error)
   }
 }
 
